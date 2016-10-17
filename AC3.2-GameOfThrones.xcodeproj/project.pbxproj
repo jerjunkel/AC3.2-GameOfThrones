@@ -7,20 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A11EE181DB2DDEB0063B13C /* GOTMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A11EE171DB2DDEB0063B13C /* GOTMainViewController.swift */; };
+		1A12A50D1DADDB0300AA45F2 /* GOTEpisode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A12A50C1DADDB0300AA45F2 /* GOTEpisode.swift */; };
+		1A12A50F1DADDF9C00AA45F2 /* EpisodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A12A50E1DADDF9C00AA45F2 /* EpisodeViewController.swift */; };
+		1A12A5131DB1D42300AA45F2 /* EpisodeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A12A5121DB1D42300AA45F2 /* EpisodeTableViewCell.swift */; };
+		1A133BA61DB2110000A827A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A133BA41DB2110000A827A4 /* LaunchScreen.storyboard */; };
+		1A942B4B1DB1F22F00C8FA93 /* HeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A942B4A1DB1F22F00C8FA93 /* HeaderTableViewCell.swift */; };
 		1EE6D10C1DAD924D006EBDBF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE6D10B1DAD924D006EBDBF /* AppDelegate.swift */; };
 		1EE6D1111DAD924D006EBDBF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EE6D10F1DAD924D006EBDBF /* Main.storyboard */; };
 		1EE6D1131DAD924D006EBDBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EE6D1121DAD924D006EBDBF /* Assets.xcassets */; };
-		1EE6D1161DAD924D006EBDBF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EE6D1141DAD924D006EBDBF /* LaunchScreen.storyboard */; };
 		1EE6D11E1DAD928B006EBDBF /* GameOfThronesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE6D11D1DAD928B006EBDBF /* GameOfThronesTableViewController.swift */; };
 		1EE6D1201DAD9310006EBDBF /* got.json in Resources */ = {isa = PBXBuildFile; fileRef = 1EE6D11F1DAD9310006EBDBF /* got.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A11EE171DB2DDEB0063B13C /* GOTMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GOTMainViewController.swift; sourceTree = "<group>"; };
+		1A12A50C1DADDB0300AA45F2 /* GOTEpisode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GOTEpisode.swift; sourceTree = "<group>"; };
+		1A12A50E1DADDF9C00AA45F2 /* EpisodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EpisodeViewController.swift; sourceTree = "<group>"; };
+		1A12A5121DB1D42300AA45F2 /* EpisodeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EpisodeTableViewCell.swift; sourceTree = "<group>"; };
+		1A133BA51DB2110000A827A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "AC3.2-GameOfThrones/Base.lproj/LaunchScreen.storyboard"; sourceTree = "<group>"; };
+		1A942B4A1DB1F22F00C8FA93 /* HeaderTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderTableViewCell.swift; sourceTree = "<group>"; };
 		1EE6D1081DAD924D006EBDBF /* AC3.2-GameOfThrones.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AC3.2-GameOfThrones.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EE6D10B1DAD924D006EBDBF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1EE6D1101DAD924D006EBDBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1EE6D1121DAD924D006EBDBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1EE6D1151DAD924D006EBDBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1EE6D1171DAD924D006EBDBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1EE6D11D1DAD928B006EBDBF /* GameOfThronesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GameOfThronesTableViewController.swift; path = "AC3.2-GameOfThrones/GameOfThronesTableViewController.swift"; sourceTree = "<group>"; };
 		1EE6D11F1DAD9310006EBDBF /* got.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = got.json; sourceTree = "<group>"; };
@@ -57,12 +67,17 @@
 		1EE6D10A1DAD924D006EBDBF /* AC3.2-GameOfThrones */ = {
 			isa = PBXGroup;
 			children = (
+				1A133BA41DB2110000A827A4 /* LaunchScreen.storyboard */,
+				1A942B4A1DB1F22F00C8FA93 /* HeaderTableViewCell.swift */,
 				1EE6D10B1DAD924D006EBDBF /* AppDelegate.swift */,
 				1EE6D10F1DAD924D006EBDBF /* Main.storyboard */,
+				1A11EE171DB2DDEB0063B13C /* GOTMainViewController.swift */,
+				1A12A5121DB1D42300AA45F2 /* EpisodeTableViewCell.swift */,
+				1A12A50E1DADDF9C00AA45F2 /* EpisodeViewController.swift */,
 				1EE6D11F1DAD9310006EBDBF /* got.json */,
 				1EE6D1121DAD924D006EBDBF /* Assets.xcassets */,
-				1EE6D1141DAD924D006EBDBF /* LaunchScreen.storyboard */,
 				1EE6D1171DAD924D006EBDBF /* Info.plist */,
+				1A12A50C1DADDB0300AA45F2 /* GOTEpisode.swift */,
 			);
 			path = "AC3.2-GameOfThrones";
 			sourceTree = "<group>";
@@ -126,8 +141,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1EE6D1161DAD924D006EBDBF /* LaunchScreen.storyboard in Resources */,
 				1EE6D1131DAD924D006EBDBF /* Assets.xcassets in Resources */,
+				1A133BA61DB2110000A827A4 /* LaunchScreen.storyboard in Resources */,
 				1EE6D1201DAD9310006EBDBF /* got.json in Resources */,
 				1EE6D1111DAD924D006EBDBF /* Main.storyboard in Resources */,
 			);
@@ -142,26 +157,32 @@
 			files = (
 				1EE6D11E1DAD928B006EBDBF /* GameOfThronesTableViewController.swift in Sources */,
 				1EE6D10C1DAD924D006EBDBF /* AppDelegate.swift in Sources */,
+				1A12A50F1DADDF9C00AA45F2 /* EpisodeViewController.swift in Sources */,
+				1A12A5131DB1D42300AA45F2 /* EpisodeTableViewCell.swift in Sources */,
+				1A942B4B1DB1F22F00C8FA93 /* HeaderTableViewCell.swift in Sources */,
+				1A11EE181DB2DDEB0063B13C /* GOTMainViewController.swift in Sources */,
+				1A12A50D1DADDB0300AA45F2 /* GOTEpisode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		1A133BA41DB2110000A827A4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A133BA51DB2110000A827A4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
 		1EE6D10F1DAD924D006EBDBF /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				1EE6D1101DAD924D006EBDBF /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		1EE6D1141DAD924D006EBDBF /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1EE6D1151DAD924D006EBDBF /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -303,6 +324,7 @@
 				1EE6D11C1DAD924D006EBDBF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
